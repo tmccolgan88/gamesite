@@ -1,0 +1,14 @@
+body {background-color: black;}
+
+h2 {
+  color:white;
+  text-align:center;
+}
+
+#linkdiv {
+  margin:auto;
+}
+
+.linkdivlinks {
+  margin-left: 15px;
+}
