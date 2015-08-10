@@ -9,6 +9,43 @@ h2 {
   margin:auto;
 }
 
+#indexlinktable{
+  width:50%;
+  
+  border: 2px solid white;  
+  margin-left:25%;
+}
+
+#indexlinktable td{
+  width:125px;
+  text-align:center;
+  border-right: 1px dotted white;
+}
+
 .linkdivlinks {
   margin-left: 15px;
+}
+
+.link1:hover span{
+  display:inline;
+}
+#mydiv {
+  width:50%;
+  height: 1000px;
+  background-image: url(../images/rpilogo.png);
+  position:relative;
+  margin:auto;
+  border: 2px solid white;
+}
+
+#samusimg {
+  margin-left:-250px;
+  z-index:2;
+  position:absolute;
+}
+
+#popup1{
+  color:green;
+  width: 100px;
+  height: 45px;
 }

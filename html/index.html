@@ -1,11 +1,27 @@
 <!DOCTYPE html>
   <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script src="../js/main.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
     <link rel="stylesheet" type="text/css" href="../css/main.css">
   </head>
 
   <body>
     <div><h2 style="color:white;">Welcome to Fat Cow Gaming</h2></div>
-
-    <div id="linkdiv"><a class="linkdivlinks" href="http://www.facebook.com">Facebook</a><a class="linkdivlinks" href="https://twitch.tv">Twitch</a><a class="linkdivlinks" href="http://www.twitter.com">Twitter</a></div>
-  </body>
+    <!--img id="samusimg" src="../images/samustall.png"-->
+    <div id="linkdiv">
+        <div id="popup1" style="width:95px;height:50px;display:none;"> Do you even game bro?</div>
+        <table id="indexlinktable">
+            <tr>
+                <td><a id="link1" class="linkdivlinks" title="Do you even game bro?" onmouseover="isGamerModalOpen();" onmouseout="isGamerModalClose();" href="">Games</a></td>
+                <td><a class="linkdivlinks" href="https://twitch.tv">Twitch</a></td>
+                <td><a class="linkdivlinks" href="http://www.twitter.com">Twitter</a></td>
+            </tr>
+        </table>    
+    </div>
+    <div id="mydiv">
+      <div class="divbgimg">&nbsp;</div>      
+	</div> 
+ </body>
 </html>
